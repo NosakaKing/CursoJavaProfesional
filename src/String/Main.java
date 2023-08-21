@@ -10,13 +10,19 @@ public class Main {
         Formatos fm = new Formatos();
         System.out.println(cd.msj);
         System.out.println(cd.msj2);
-        
         // Metodos para cadenas
         System.out.println("Metodos para cadenas");
         System.out.println(cd.getLongitud() + " caracteres");
         System.out.println(cd.getContains());
         System.out.println(cd.getInicia());
         System.out.println(cd.getFinal());
+        cd.getLenght();
+        cd.getChar();
+        cd.getIndexOf();
+        cd.getILastndexOf();
+        cd.getBusqueda();
+        cd.getsubStringInicial();
+        cd.getsubStringFinal();
         
         // Metodos de Formato
         System.out.println("Metodos Formatos");
